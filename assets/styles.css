@@ -1,0 +1,51 @@
+.mini_container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.container-display {
+  display: flex;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-display {
+  display: flex;
+}
+
+#sales {
+  flex: 1;
+}
+
+#average {
+  flex: 1;
+}
+
+#invoices {
+  flex: 1;
+}
+
+#customers {
+  flex: 1;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  margin: 25px 25px;
+}
+
+#header {
+  align-items: center;
+}
+
+.divBorder{
+    border: 20px lightgrey
+}
