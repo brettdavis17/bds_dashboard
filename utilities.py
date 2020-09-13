@@ -4,12 +4,10 @@ import pandas as pd
 import dash
 import dash_html_components as html
 import dash_core_components as dcc
-import dash_bootstrap_components as dbc
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
 import datetime
 import plotly.graph_objects as go
-import plotly.express as px
 from functions import get_balance_sql_result, get_past_due_sql_result, get_current_sql_result, \
     get_zero_to_thirty_sql_result, get_thirty_to_sixty_sql_result, get_sixty_to_ninety_sql_result, \
     get_over_ninety_sql_result, get_barchart_df, get_treemap_df, get_scatter_graph_df, build_hierarchical_dataframe

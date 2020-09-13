@@ -2,7 +2,6 @@ import sqlite3
 import dash
 import dash_html_components as html
 import dash_core_components as dcc
-import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output
 from utilities import sales, accounts_receivable, profit_and_loss
 from functions import get_pl_sales, get_pl_other_rev, get_pl_cogs, get_pl_expenses, get_pl_taxes, \
